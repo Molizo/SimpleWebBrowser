@@ -35,8 +35,8 @@ FILE1="SimpleWebBrowser.exe.config"
 FILE2="SimpleWebBrowser.pdb"
 FILE3="SimpleWebBrowser.resources.dll"
 [SourceFiles]
-SourceFiles0=C:\projects\simplewebbrowser\SimpleWebBrowser\bin\Release\
-SourceFiles1=C:\projetcs\simplewebbrowser\SimpleWebBrowser\bin\Release\en\
+SourceFiles0=C:\projects\simplewebbrowser\SimpleWebBrowser\bin\Debug\
+SourceFiles1=C:\projetcs\simplewebbrowser\SimpleWebBrowser\bin\Debug\en\
 [SourceFiles0]
 %FILE0%=
 %FILE1%=

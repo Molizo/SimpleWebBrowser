@@ -1,0 +1,14 @@
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\bin\Release\SimpleWebBrowser.exe.config
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\bin\Release\SimpleWebBrowser.exe
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\bin\Release\SimpleWebBrowser.pdb
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\bin\Release\en\SimpleWebBrowser.resources.dll
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.ErrorBox.resources
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.MainForm.resources
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.Properties.Resources.resources
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.ErrorBox.en.resources
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.MainForm.en.resources
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.csproj.GenerateResource.cache
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\en\SimpleWebBrowser.resources.dll
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.exe
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.pdb

@@ -12,3 +12,4 @@ C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Releas
 C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\en\SimpleWebBrowser.resources.dll
 C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.exe
 C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.pdb
+C:\Users\Mihnea Visoiu\source\repos\SimpleWebBrowser\SimpleWebBrowser\obj\Release\SimpleWebBrowser.csprojAssemblyReference.cache

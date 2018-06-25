@@ -152,6 +152,21 @@
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 6</value>
   </data>
+  <data name="toggleScriptErrorMessagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="toggleScriptErrorMessagesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Toggle Script Error messages</value>
+  </data>
+  <data name="toolStripComboBox1.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="toolStripComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="toolStripComboBox1.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
   <data name="settingsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 22</value>
   </data>
@@ -1563,6 +1578,15 @@
   <data name="searchButton.Text" xml:space="preserve">
     <value>Open URL</value>
   </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="toolStripProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 25</value>
+  </data>
+  <data name="toolStripProgressBar.ToolTipText" xml:space="preserve">
+    <value>Progress</value>
+  </data>
   <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -1659,6 +1683,36 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Web Browser</value>
   </data>
+  <data name="&gt;&gt;goBackToolStripMenuItem.Name" xml:space="preserve">
+    <value>goBackToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;goBackToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;goForwardToolStripMenuItem.Name" xml:space="preserve">
+    <value>goForwardToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;goForwardToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem1.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;backButton.Name" xml:space="preserve">
     <value>backButton</value>
   </data>
@@ -1689,35 +1743,29 @@
   <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;goBackToolStripMenuItem.Name" xml:space="preserve">
-    <value>goBackToolStripMenuItem</value>
+  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Name" xml:space="preserve">
+    <value>toggleScriptErrorMessagesToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;goBackToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;goForwardToolStripMenuItem.Name" xml:space="preserve">
-    <value>goForwardToolStripMenuItem</value>
+  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
+    <value>toolStripComboBox1</value>
   </data>
-  <data name="&gt;&gt;goForwardToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
-    <value>settingsToolStripMenuItem</value>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
   </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
-    <value>toolStripSeparator2</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem1.Name" xml:space="preserve">
-    <value>settingsToolStripMenuItem1</value>
+  <data name="&gt;&gt;toolStripProgressBar.Name" xml:space="preserve">
+    <value>toolStripProgressBar</value>
   </data>
-  <data name="&gt;&gt;settingsToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

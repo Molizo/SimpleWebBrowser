@@ -32,18 +32,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.backButton = new System.Windows.Forms.ToolStripButton();
-            this.forwardButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.URLTextBox = new System.Windows.Forms.ToolStripTextBox();
-            this.searchButton = new System.Windows.Forms.ToolStripButton();
-            this.webBrowser = new System.Windows.Forms.WebBrowser();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.goBackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goForwardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.settingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.backButton = new System.Windows.Forms.ToolStripButton();
+            this.forwardButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.URLTextBox = new System.Windows.Forms.ToolStripTextBox();
+            this.searchButton = new System.Windows.Forms.ToolStripButton();
+            this.webBrowser = new System.Windows.Forms.WebBrowser();
+            this.toggleScriptErrorMessagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.tableLayoutPanel1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -66,9 +70,52 @@
             this.forwardButton,
             this.toolStripSeparator1,
             this.URLTextBox,
-            this.searchButton});
+            this.searchButton,
+            this.toolStripSeparator3,
+            this.toolStripProgressBar});
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.goBackToolStripMenuItem,
+            this.goForwardToolStripMenuItem,
+            this.settingsToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.settingsToolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            // 
+            // goBackToolStripMenuItem
+            // 
+            this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
+            resources.ApplyResources(this.goBackToolStripMenuItem, "goBackToolStripMenuItem");
+            this.goBackToolStripMenuItem.Click += new System.EventHandler(this.backButton_Click);
+            // 
+            // goForwardToolStripMenuItem
+            // 
+            this.goForwardToolStripMenuItem.Name = "goForwardToolStripMenuItem";
+            resources.ApplyResources(this.goForwardToolStripMenuItem, "goForwardToolStripMenuItem");
+            this.goForwardToolStripMenuItem.Click += new System.EventHandler(this.forwardButton_Click);
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // settingsToolStripMenuItem1
+            // 
+            this.settingsToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toggleScriptErrorMessagesToolStripMenuItem,
+            this.toolStripComboBox1});
+            this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
+            resources.ApplyResources(this.settingsToolStripMenuItem1, "settingsToolStripMenuItem1");
             // 
             // backButton
             // 
@@ -109,44 +156,31 @@
             this.webBrowser.Name = "webBrowser";
             this.webBrowser.Url = new System.Uri("https://mihneavisoiu.ro", System.UriKind.Absolute);
             this.webBrowser.Navigated += new System.Windows.Forms.WebBrowserNavigatedEventHandler(this.webBrowser_Navigated);
+            this.webBrowser.ProgressChanged += new System.Windows.Forms.WebBrowserProgressChangedEventHandler(this.webBrowser_ProgressChanged);
             // 
-            // contextMenuStrip1
+            // toggleScriptErrorMessagesToolStripMenuItem
             // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.goBackToolStripMenuItem,
-            this.goForwardToolStripMenuItem,
-            this.settingsToolStripMenuItem,
-            this.toolStripSeparator2,
-            this.settingsToolStripMenuItem1});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
+            this.toggleScriptErrorMessagesToolStripMenuItem.Name = "toggleScriptErrorMessagesToolStripMenuItem";
+            resources.ApplyResources(this.toggleScriptErrorMessagesToolStripMenuItem, "toggleScriptErrorMessagesToolStripMenuItem");
+            this.toggleScriptErrorMessagesToolStripMenuItem.Click += new System.EventHandler(this.toggleScriptErrorMessagesToolStripMenuItem_Click);
+            this.toggleScriptErrorMessagesToolStripMenuItem.DoubleClick += new System.EventHandler(this.toggleScriptErrorMessagesToolStripMenuItem_Click);
             // 
-            // goBackToolStripMenuItem
+            // toolStripComboBox1
             // 
-            this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            resources.ApplyResources(this.goBackToolStripMenuItem, "goBackToolStripMenuItem");
-            this.goBackToolStripMenuItem.Click += new System.EventHandler(this.backButton_Click);
+            this.toolStripComboBox1.Items.AddRange(new object[] {
+            resources.GetString("toolStripComboBox1.Items")});
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
             // 
-            // goForwardToolStripMenuItem
+            // toolStripSeparator3
             // 
-            this.goForwardToolStripMenuItem.Name = "goForwardToolStripMenuItem";
-            resources.ApplyResources(this.goForwardToolStripMenuItem, "goForwardToolStripMenuItem");
-            this.goForwardToolStripMenuItem.Click += new System.EventHandler(this.forwardButton_Click);
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
             // 
-            // settingsToolStripMenuItem
+            // toolStripProgressBar
             // 
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
-            // 
-            // settingsToolStripMenuItem1
-            // 
-            this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
-            resources.ApplyResources(this.settingsToolStripMenuItem1, "settingsToolStripMenuItem1");
+            this.toolStripProgressBar.Name = "toolStripProgressBar";
+            resources.ApplyResources(this.toolStripProgressBar, "toolStripProgressBar");
             // 
             // MainForm
             // 
@@ -180,6 +214,10 @@
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toggleScriptErrorMessagesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar;
     }
 }
 

@@ -24,6 +24,8 @@ namespace SimpleWebBrowser
             {
                 if (!(URLTextBox.Text.Contains("http://") || URLTextBox.Text.Contains("https://")))
                     errorText = "URL does not specify protocol.\nPlease enter a valid URL.";
+                if (URLTextBox.Text.Length<7)
+                    errorText = "URL is invalid.\nPlease enter a valid URL.";
                 if (URLTextBox.Text == String.Empty)
                     errorText = "URL is empty.\nPlease enter a valid URL.";
                 if (errorText != String.Empty)
@@ -56,7 +58,7 @@ namespace SimpleWebBrowser
                 errorBox.ShowDialog();
             }
         }
-
+        
         private void webBrowser_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             URLTextBox.Text = webBrowser.Url.ToString();
@@ -82,6 +84,18 @@ namespace SimpleWebBrowser
         {
             if (e.KeyCode == Keys.Enter)
                 this.searchButton_Click(sender, e);
+        }
+
+        private void toggleScriptErrorMessagesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.scriptErrorMessages = !(Properties.Settings.Default.scriptErrorMessages);
+            webBrowser.ScriptErrorsSuppressed = Properties.Settings.Default.scriptErrorMessages;
+        }
+
+        private void webBrowser_ProgressChanged(object sender, WebBrowserProgressChangedEventArgs e)
+        {
+            toolStripProgressBar.Maximum = (int)e.MaximumProgress;
+            toolStripProgressBar.Value = (int)e.CurrentProgress;
         }
     }
 }

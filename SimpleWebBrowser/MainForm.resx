@@ -1582,7 +1582,7 @@
     <value>6, 28</value>
   </data>
   <data name="toolStripProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 25</value>
+    <value>500, 24</value>
   </data>
   <data name="toolStripProgressBar.ToolTipText" xml:space="preserve">
     <value>Progress</value>
@@ -1713,6 +1713,18 @@
   <data name="&gt;&gt;settingsToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Name" xml:space="preserve">
+    <value>toggleScriptErrorMessagesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
+    <value>toolStripComboBox1</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;backButton.Name" xml:space="preserve">
     <value>backButton</value>
   </data>
@@ -1742,18 +1754,6 @@
   </data>
   <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Name" xml:space="preserve">
-    <value>toggleScriptErrorMessagesToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;toggleScriptErrorMessagesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
-    <value>toolStripComboBox1</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
     <value>toolStripSeparator3</value>

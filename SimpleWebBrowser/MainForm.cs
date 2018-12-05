@@ -15,6 +15,10 @@ namespace SimpleWebBrowser
         public MainForm()
         {
             InitializeComponent();
+            if (Properties.Settings.Default.scriptErrorMessages == true)
+                webBrowser.ScriptErrorsSuppressed = true;
+            else
+                webBrowser.ScriptErrorsSuppressed = false;
         }
 
         private void searchButton_Click(object sender, EventArgs e)
@@ -97,5 +101,6 @@ namespace SimpleWebBrowser
             toolStripProgressBar.Maximum = (int)e.MaximumProgress;
             toolStripProgressBar.Value = (int)e.CurrentProgress;
         }
+        
     }
 }
